@@ -1,0 +1,301 @@
+.nav-head {
+  font-weight: 700;
+  color: rgb(33, 37, 41) !important;
+}
+.nav-head:hover {
+  color: blue !important;
+}
+
+.nav-li {
+  color: rgb(33, 37, 41) !important;
+  font-family: "Mulish", sans-serif;
+}
+.nav-li:hover {
+  color: #6c757d !important;
+}
+
+.nav-shadow {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.08) !important;
+  height: 70px !important;
+}
+
+.nav-border {
+  height: 35px;
+  width: 150px;
+  font-family: "Mulish", sans-serif;
+  background-color: rgb(45, 45, 240) !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.nav-border:hover {
+  background-color: rgb(0, 0, 251) !important;
+}
+
+.title {
+  font-size: 80px;
+  font-weight: 600;
+  color: rgb(33, 37, 41);
+  font-family: "Newsreader", serif;
+  line-height: 80px;
+}
+
+.title2 {
+  font-size: 75px;
+  font-weight: 600;
+  color: rgb(33, 37, 41);
+  font-family: "Newsreader", serif;
+  line-height: 80px;
+}
+
+.title1 {
+  font-size: 56px;
+  font-weight: 600;
+  color: rgb(33, 37, 41);
+  font-family: "Newsreader", serif;
+  line-height: 80px;
+}
+
+.text {
+  font-size: 21px;
+  font-weight: 500;
+  color: #6c757d;
+  font-family: "Mulish", sans-serif;
+}
+
+.text1 {
+  font-size: 21px;
+  font-weight: 500;
+  color: #6c757d;
+  font-family: "Mulish", sans-serif;
+}
+
+.container-1 {
+  max-width: 1320px !important;
+  padding-right: 30px !important;
+  padding-left: 30px !important;
+}
+
+.up {
+  padding-bottom: 30px !important;
+  margin-bottom: 40px !important;
+}
+
+.imglogo {
+  width: 160px;
+  height: 55px;
+  padding: 1px;
+}
+
+.sec-backcolor {
+  background: linear-gradient(45deg, #2937f0, #9f1ae2) !important;
+}
+
+.title-h4 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #ffffff;
+  font-family: "Newsreader", serif;
+}
+
+.circlebg {
+  position: absolute !important;
+  width: 425px;
+  height: 425px;
+  background: linear-gradient(90deg, #2937f0, #9f1ae2) !important;
+  margin-top: 140px;
+  margin-left: 40px;
+}
+
+.iphone::after {
+  content: "";
+  width: 322px;
+  height: 630px;
+  position: absolute;
+  z-index: 1;
+  top: 0 !important;
+  background-image: url("./portrait_black.png");
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.video {
+  width: 222px;
+  height: 480px;
+  position: absolute !important;
+  -o-object-fit: cover !important;
+  object-fit: cover !important;
+  top: 75px !important;
+  right: -17px;
+  border-radius: 19px;
+}
+
+.iphone2::after {
+  content: "";
+  width: 322px;
+  height: 630px;
+  position: absolute;
+  z-index: 1;
+  top: -40px !important;
+  background-image: url("./portrait_black.png");
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  right: -214px;
+}
+
+.video2 {
+  width: 223px;
+  height: 480px;
+  position: absolute !important;
+  -o-object-fit: cover !important;
+  object-fit: cover !important;
+  top: 35px !important;
+  border-radius: 19px;
+}
+
+.circlelt {
+  position: absolute !important;
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(90deg, #2937f0, #9f1ae2) !important;
+  margin-top: 180px;
+  margin-left: 40px;
+}
+
+.box {
+  margin-top: 80px;
+  padding-top: 50px;
+  text-align: center;
+}
+.box i {
+  font-weight: 600;
+  font-size: 64px;
+  background: -webkit-linear-gradient(#2937f0, #9f1ae2);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.box h3 {
+  font-size: 32px;
+  font-weight: 600;
+  font-family: "Kanit", sans-serif;
+  margin-bottom: 8px;
+  margin-top: 32px;
+}
+.box p {
+  font-family: "Mulish", sans-serif;
+  color: #6c757d !important;
+  font-size: 16px;
+  font-size: 600;
+}
+
+.box1 {
+  margin-top: 30px;
+  text-align: center;
+}
+.box1 i {
+  font-weight: 600;
+  font-size: 64px;
+  background: -webkit-linear-gradient(#2937f0, #9f1ae2);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.box1 h3 {
+  font-size: 32px;
+  font-weight: 600;
+  font-family: "Kanit", sans-serif;
+  margin-bottom: 8px;
+  margin-top: 32px;
+}
+.box1 p {
+  font-family: "Mulish", sans-serif;
+  color: #6c757d !important;
+  font-size: 16px;
+  font-size: 500;
+}
+
+.circle {
+  max-width: 85% !important;
+  height: auto;
+}
+
+.img {
+  background-image: url(./planset.jpg);
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  padding-top: 230px;
+  padding-bottom: 230px;
+}
+
+.img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.custom-css {
+  width: 200px !important;
+  height: 55px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  border: 1px solid white !important;
+  background-color: transparent !important;
+}
+.custom-css a {
+  color: white !important;
+}
+
+.custom-css:hover {
+  background-color: #ffffff !important;
+}
+.custom-css:hover a {
+  color: #6c757d !important;
+  text-decoration: none !important;
+}
+
+.custom-div {
+  width: 540px;
+  height: 540px;
+}
+
+.iphone {
+  bottom: -15px !important;
+}
+
+@media (min-width: 500px) and (max-width: 992px) {
+  .video {
+    right: 253px !important;
+  }
+  .circlebg {
+    margin: 0;
+  }
+  .iphone {
+    top: -183px;
+  }
+  .circlelt {
+    position: relative !important;
+  }
+  .video2 {
+    left: 24.5%;
+  }
+  .iphone2::after {
+    left: 15%;
+    right: 0;
+  }
+  .circle {
+    max-width: 50% !important;
+    height: auto;
+  }
+}/*# sourceMappingURL=TNW.css.map */
